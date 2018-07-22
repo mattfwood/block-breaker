@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 139639637}
   - component: {fileID: 139639639}
   - component: {fileID: 139639640}
+  - component: {fileID: 139639641}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -184,7 +185,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 139639636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6722574, y: 0.39, z: 0}
+  m_LocalPosition: {x: 5, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -241,6 +242,20 @@ PolygonCollider2D:
       - {x: 1, y: -0.25}
       - {x: 1, y: 0.04304421}
       - {x: 0.77361107, y: 0.13672948}
+--- !u!114 &139639641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139639636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f19301c2cb7142828be4dfb0e27eb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenWidthInUnits: 16
+  min: 0
+  max: 16
 --- !u!1 &188974817
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +483,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 247668847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.54, y: 4.3, z: 0}
+  m_LocalPosition: {x: 4.85, y: 8.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -702,6 +717,7 @@ GameObject:
   - component: {fileID: 1058246702}
   - component: {fileID: 1058246701}
   - component: {fileID: 1058246703}
+  - component: {fileID: 1058246704}
   m_Layer: 0
   m_Name: Lose Collider
   m_TagString: Untagged
@@ -741,7 +757,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1058246700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.53, z: 0}
+  m_LocalPosition: {x: 0, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -758,6 +774,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b32fec6299f493494204c73a4de877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1058246704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1058246700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f19301c2cb7142828be4dfb0e27eb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenWidthInUnits: 16
+  min: 0
+  max: 16
 --- !u!1 &1082216660
 GameObject:
   m_ObjectHideFlags: 0
